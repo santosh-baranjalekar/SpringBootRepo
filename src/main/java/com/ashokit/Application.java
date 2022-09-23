@@ -10,6 +10,8 @@ public class Application {
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(Application.class, args);
 		System.out.println("Application Context");
+		//changes done for Task-2
+		System.out.println("Changes Done for Task-2");
 	}
 
 }
