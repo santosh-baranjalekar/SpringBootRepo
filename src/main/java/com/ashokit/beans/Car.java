@@ -6,5 +6,7 @@ public class Car {
 		//Changes for Task-1
 		System.out.println("Changes Done In Task-1");
 		int i=10;
+		//changes for Task-3
+		System.out.println("Changes done in Task-3");
 	}
 }
