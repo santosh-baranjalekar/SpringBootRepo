@@ -6,6 +6,9 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class Application {
+        public void doProcess(){
+          System.out.println("doProcess Done");
+        }
 
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(Application.class, args);
