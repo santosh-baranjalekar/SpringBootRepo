@@ -6,8 +6,11 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class Application {
+
+   private Map<String,Object> cache= new HashMap<String,Object>()
+
         
-        private static final String REST_URL="https://www.equifax.com/getScores";        
+   private static final String REST_URL="https://www.equifax.com/getScores";
 
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(Application.class, args);
@@ -17,6 +20,11 @@ public class Application {
 		//changes done for Task-4
 		System.out.println("Changes Done for Task-4");
                 System.out.println("Develop branch changes done");
+
+
+                public void loadDataToCache(){
+                  //logic
+                }
 	}
 
 }
