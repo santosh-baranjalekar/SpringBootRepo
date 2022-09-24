@@ -6,7 +6,11 @@ import org.springframework.context.ApplicationContext;
 
 @SpringBootApplication
 public class Application {
+
    private Map<String,Object> cache= new HashMap<String,Object>()
+
+        
+   private static final String REST_URL="https://www.equifax.com/getScores";
 
 	public static void main(String[] args) {
 		ApplicationContext context=SpringApplication.run(Application.class, args);
